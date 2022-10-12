@@ -1,0 +1,83 @@
+body {
+  background-color: #edf2f4;
+}
+
+div {
+  border: 2px solid black;
+  padding: 30px;                             
+  border-radius: 4px;                        
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 700px;
+  margin: 50px auto;
+  background-color: #edede9;
+}
+
+h1 {
+  font-size: 40px;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  letter-spacing: 15px;
+  text-decoration: overline;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  color: black;
+  line-height: 0px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.about-me {
+  text-align: left;
+}
+
+.no-job {
+  text-align: right;
+}
+
+
+p {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  background-color: red;
+  transition-duration: 2s;
+}
+
+.skills-list {
+  list-style: none; 
+  text-align: center;
+  line-height: 100px;
+  }
+  .skills-list li{
+    font-family: "Oswald", sans-serif;
+    display: inline;
+    margin: 30px;
+  }
+
+.socials-list {
+  list-style: none; 
+  text-align: center;
+  line-height: 100px; 
+  }
+  .socials-list li{
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    display: inline;
+    margin: 30px;
+  }
+
+#dont-click {
+  color: white;
+}
